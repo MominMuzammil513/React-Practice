@@ -21,6 +21,15 @@
 
 }
 
+.Header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 2px;
+    color: white;
+    background-color: black;
+}
+
 .Main-Card {
     border: 2px solid black;
     border-radius: 20px;

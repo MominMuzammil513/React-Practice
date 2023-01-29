@@ -14,9 +14,30 @@
 import React from "react";
 import Card from "./Card";
 import Sdata from "./Sdata";
+import Header from "./Header";
+// import Search from "./Search";
 
-const App = () => {
+// let favSeri = "netflix";
+// const NetflixBtn = () => {
+//     if (favSeri === "netflix") {
+//         return (
+//             <Card
+//                 key={Sdata[6].id}
+//                 imgsrc={Sdata[6].imgsrc}
+//                 catName={Sdata[6].catName}
+//                 title={Sdata[6].title}
+//                 movieLink={Sdata[6].movieLink}
+//             />
+//         )
+//     } else {
+
+//     }
+// }
+
+const App = () => (
     <>
+        <Header />
+
         {
             Sdata.map((val, index) => {
                 console.log(index)
@@ -31,7 +52,8 @@ const App = () => {
                 );
             })
         }
+        {/* <NetflixBtn /> */}
     </>
 
-}
+)
 export default App;

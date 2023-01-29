@@ -1,20 +1,20 @@
 import React from "react";
+import Heading from "./Heading";
+import Image from "./Image";
+import CategoryName from "./CategoryName";
 import './index.css'
+import WatchNow from "./WatchNow";
 
 const Card = (props) => {
     return (
         <div className="Main-Card">
             <div className="card-img">
-                <img src={props.imgsrc} />
+                <Image imgsrc={props.imgsrc} />
 
                 <div className="card-info">
-                    <p className="card-category">{props.catName}</p>
-                    <h3 className="card-tittle">
-                        {props.title}
-                    </h3>
-                    <a href={props.movieLink}>
-                        <button>WATCH NOW</button>
-                    </a>
+                    <CategoryName catName={props.catName} />
+                    <Heading title={props.title} />
+                    <WatchNow movieLink={props.movieLink} />
                 </div>
             </div>
         </div>

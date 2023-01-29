@@ -1,8 +1,10 @@
 import React from "react";
 
-const heading = () => {
+const Heading = (props) => {
     return (
-        <header>My Web App</header>
+        <h3 className="card-tittle">
+            {props.title}
+        </h3>
     )
 }
-export default heading;
+export default Heading;
