@@ -1,5 +1,5 @@
 // import IDInput from "./IDInput"; 
-import Button from "./Button";
+import ButtonInput from "./ButtonInput";
 
 
 const IncDec = () => {
@@ -7,7 +7,7 @@ const IncDec = () => {
         <>
             <div className="main">
                 {/* <IDInput /> */}
-                <Button />
+                <ButtonInput />
             </div>
         </>
     )

@@ -1,0 +1,47 @@
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    box-shadow: 5px 2px 2px rgb(136, 132, 132);
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 180px;
+    border-radius: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Btn-div {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%px;
+    padding: 10px;
+}
+
+.IncBtn {
+    height: 100%;
+    width: 43%;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 2px 2px rgb(136, 132, 132);
+}
+
+.DecBtn {
+    height: 100%;
+    width: 43%;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 2px 2px rgb(136, 132, 132);
+}
+
+
+
+h1 {
+    text-align: center;
+}
