@@ -1,0 +1,15 @@
+so, react hooks provides a concept call context.
+
+React context API allows you to easily access data at different levels,
+of the component three,without passing props to every level
+
+
+..
+createContext()
+
+provider
+
+consumer
+
+..
+callback nested hell

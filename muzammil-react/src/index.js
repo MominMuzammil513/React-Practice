@@ -1,3 +1,33 @@
+import React from 'react'
+
+import reactDOM from 'react-dom/client'
+import Home from './Home'
+
+const root = reactDOM.createRoot(document.querySelector('#root'))
+
+root.render(
+    <React.StrictMode>
+        <Home />
+    </React.StrictMode>
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import React from 'react';
 
 // // import './index.css';
@@ -148,15 +178,15 @@
 
 //.......................................Four.........................................................
 
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./Components/App";
 
-ReactDOM.render(
-    <>
-        <App />
-    </>,
-    document.querySelector("#root")
-)
+// ReactDOM.render(
+//     <>
+//         <App />
+//     </>,
+//     document.querySelector("#root")
+// )
 
 //.......................................Four End ....................................................
