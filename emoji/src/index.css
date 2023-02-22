@@ -1,0 +1,35 @@
+.header {
+  background-color: #E8E2E2;
+  color: black;
+  font-size: 20px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.span-header {
+  /* border: 2px solid black; */
+  margin: 0 10px 0 12px;
+  background-color: #a8a0a098;
+  font-weight: 600;
+}
+
+.msg {
+  font-size: 70px;
+  background-color: #7c7c7c98;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.msg-span {
+  font-size: 30px;
+  /* background-color: #7c7c7c98;
+  width: 20%;
+  text-align: center; */
+
+}

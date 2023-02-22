@@ -1,0 +1,65 @@
+body {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-div {
+    border: 1px solid black;
+    padding: 10px;
+    width: 1000px;
+    /* background: linear-gradient(80deg, rgba(22, 22, 22, 0.8) 0%, rgba(56, 56, 56, 0.8) 51%, rgba(44, 44, 44, 0.8) 75%);
+*/
+    background-color: black;
+}
+
+.my-div {
+    padding: 10px;
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.ans-div {
+    display: flex;
+}
+
+.btn {
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: lightseagreen;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.btn-ans {
+    /* border: 3px solid black; */
+    width: 945px;
+    margin-left: 40px;
+    margin-top: -10px;
+    background-color: rgb(121, 121, 121);
+
+}
+
+.quest {
+    /* border: 3px solid black; */
+    width: 945px;
+}
+
+.heading {
+    text-align: center;
+}

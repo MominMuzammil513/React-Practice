@@ -1,10 +1,10 @@
 // import IncDec from "./IncDec/IncDec";
 
-// import TodoList from './TodoList/TodoList'
+import TodoList from './Components/TodoList/TodoList'
 
 ////////..bootsrap............////////
-import Bootstrap from "./Components/boostrap/Booststrap"; //import my component
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css' //import npm module
+// import Bootstrap from "./Components/boostrap/Booststrap"; //import my component
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css' //import npm module
 ////////..bootsrap...end.........////////
 
 // import Accordia from "./Components/Accordian/Accordian";
@@ -12,9 +12,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css' //import npm modul
 const App = () => {
   return (
     <>
-      {/* <TodoList /> */}
+      <TodoList />
       {/* <IncDec /> */}
-      <Bootstrap />
+      {/* <Bootstrap /> */}
       {/* <Accordia /> */}
     </>
   )

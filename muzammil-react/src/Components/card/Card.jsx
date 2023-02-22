@@ -2,7 +2,6 @@ import React from "react";
 import Heading from "./Heading";
 import Image from "./Image";
 import CategoryName from "./CategoryName";
-import '../index.css'
 import WatchNow from "./WatchNow";
 
 const Card = (props) => {

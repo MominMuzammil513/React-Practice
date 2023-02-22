@@ -43,7 +43,7 @@ const App = () => (
                 console.log(index)
                 return (
                     <Card
-                        key={val.id}
+                        key={val.index}
                         imgsrc={val.imgsrc}
                         catName={val.catName}
                         title={val.title}
