@@ -37,7 +37,7 @@ import Header from "./Header";
 const App = () => (
     <>
         <Header />
-
+<div className="flex flex-wrap p-4 gap-5">
         {
             Sdata.map((val, index) => {
                 console.log(index)
@@ -52,6 +52,7 @@ const App = () => (
                 );
             })
         }
+        </div>
         {/* <NetflixBtn /> */}
     </>
 

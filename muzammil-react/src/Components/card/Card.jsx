@@ -6,8 +6,8 @@ import WatchNow from "./WatchNow";
 
 const Card = (props) => {
     return (
-        <div className="Main-Card">
-            <div className="card-img">
+        <div className="w-[30rem]">
+            <div className="w-full">
                 <Image imgsrc={props.imgsrc} />
 
                 <div className="card-info">
