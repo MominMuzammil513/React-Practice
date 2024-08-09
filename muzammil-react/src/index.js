@@ -2,6 +2,7 @@ import React from 'react'
 
 import reactDOM from 'react-dom/client'
 import Home from './Home'
+import './index.css';
 
 const root = reactDOM.createRoot(document.querySelector('#root'))
 
