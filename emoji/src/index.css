@@ -1,35 +1,135 @@
-.header {
-  background-color: #E8E2E2;
-  color: black;
-  font-size: 20px;
-  height: 100px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4a4a4a;
+  color: white;
+  font-size: 36px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .span-header {
-  /* border: 2px solid black; */
-  margin: 0 10px 0 12px;
-  background-color: #a8a0a098;
-  font-weight: 600;
+  margin: 0 10px;
+  background-color: #ffd700;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #4a4a4a;
 }
 
-.msg {
-  font-size: 70px;
-  background-color: #7c7c7c98;
-  width: 20%;
-  margin-left: 40%;
-  margin-top: 10px;
+.slot-machine {
+  margin: 20px auto;
+  width: 350px;
   text-align: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-.msg-span {
-  font-size: 30px;
-  /* background-color: #7c7c7c98;
-  width: 20%;
-  text-align: center; */
+.jackpot {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
 
+.reels {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.reel {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #ffd700;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  background-color: #f8f9fa;
+  transition: transform 0.1s;
+}
+
+.reel.spinning {
+  animation: spin 0.2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: translateY(-2px); }
+  50% { transform: translateY(2px); }
+  100% { transform: translateY(-2px); }
+}
+
+.controls {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spin-button, .reset-button, .bet-button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.spin-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.spin-button:hover {
+  background-color: #218838;
+}
+
+.reset-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.reset-button:hover {
+  background-color: #c82333;
+}
+
+.bet-button {
+  background-color: #007bff;
+  color: white;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.bet-button:hover {
+  background-color: #0056b3;
+}
+
+.bet {
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.balance {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #28a745;
+}
+
+.message {
+  font-size: 20px;
+  color: #ffc107;
+  margin: 10px 0;
+  min-height: 30px;
 }
